@@ -1,0 +1,10 @@
+D:\GameLibrary_Lucene\GameLibraryML.Model\bin\Debug\netstandard2.0\MLModel.zip
+D:\GameLibrary_Lucene\GameLibraryML.Model\bin\Debug\netstandard2.0\GameLibrary2ML.Model.deps.json
+D:\GameLibrary_Lucene\GameLibraryML.Model\bin\Debug\netstandard2.0\GameLibrary2ML.Model.dll
+D:\GameLibrary_Lucene\GameLibraryML.Model\bin\Debug\netstandard2.0\GameLibrary2ML.Model.pdb
+D:\GameLibrary_Lucene\GameLibraryML.Model\obj\Debug\netstandard2.0\GameLibrary2ML.Model.csprojAssemblyReference.cache
+D:\GameLibrary_Lucene\GameLibraryML.Model\obj\Debug\netstandard2.0\GameLibrary2ML.Model.csproj.CoreCompileInputs.cache
+D:\GameLibrary_Lucene\GameLibraryML.Model\obj\Debug\netstandard2.0\GameLibrary2ML.Model.AssemblyInfoInputs.cache
+D:\GameLibrary_Lucene\GameLibraryML.Model\obj\Debug\netstandard2.0\GameLibrary2ML.Model.AssemblyInfo.cs
+D:\GameLibrary_Lucene\GameLibraryML.Model\obj\Debug\netstandard2.0\GameLibrary2ML.Model.dll
+D:\GameLibrary_Lucene\GameLibraryML.Model\obj\Debug\netstandard2.0\GameLibrary2ML.Model.pdb

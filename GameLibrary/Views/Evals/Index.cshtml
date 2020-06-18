@@ -1,0 +1,51 @@
+﻿@model IEnumerable<GameLibrary.Models.Eval>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+@using Microsoft.AspNetCore.Identity
+
+@inject SignInManager<ApplicationUser> SignInManager
+
+<h1>Parerea ta conteaza!</h1>
+
+<p>
+    <a asp-action="Create">Evalueaza-ne!</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                Subiect
+            </th>
+            <th>
+                Detalii
+            </th>
+            
+
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.EvalSubject)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.EvalDescription)
+            </td>
+            
+            <td>
+                @if (SignInManager.IsSignedIn(User) && User.IsInRole("admin"))
+                 {
+                <a asp-action="Edit" asp-route-id="@item.EvalId">Edit</a> 
+                <a asp-action="Details" asp-route-id="@item.EvalId">Details</a> 
+                <a asp-action="Delete" asp-route-id="@item.EvalId">Delete</a>
+                  }
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
